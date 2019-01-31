@@ -45,15 +45,16 @@ if (argc == 2)
        }
        else
        {
-           printf("%c", plaintext[i]);
+           printf("%c", pt[i]);
        }
-   }
      }
+  }
    else 
    {    
     printf("error more or less than 2");
         return 1;
    }
    }
+  printf("\n");
     return 0;
 }
