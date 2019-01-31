@@ -1,6 +1,7 @@
 #include <stdio.h>
 #include <cs50.h>
 #include <string.h>
+#include <ctype.h>
 
 int main(int argc, string argv[])
 {
@@ -12,7 +13,15 @@ if (argc == 2)
     
    for (i=0; i < strlen(plaintext); i++)
    {
-       
+       if (isalpha (plaintext(i)))
+       {
+           if (isupper
+           printf
+       }
+       else
+       {
+           printf("%d", plaintext(i));
+       }
    }
      }
    else 
